@@ -1,19 +1,19 @@
-﻿生成启动时间为 2023/3/30 11:57:12。
-     1>项目“C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2023/3/30 12:29:27。
+     1>项目“D:\GitProjects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\VS2015\VC\bin\x86_amd64\CL.exe /c /ID:\UG12.0\UGOPEN /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D LIUWANGQI_BANJIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt banjin.cpp
          banjin.cpp
        Link:
-         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\UG12.0\UGOPEN libufun.lib libugopenint.lib libnxopencpp.lib libnxopenuicpp.lib opencv_world455d.lib opencv_world455d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.lib" /MACHINE:X64 /DLL x64\Release\banjin.obj
-           正在创建库 C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.lib 和对象 C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.exp
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\UG12.0\UGOPEN libufun.lib libugopenint.lib libnxopencpp.lib libnxopenuicpp.lib opencv_world455d.lib opencv_world455d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.lib" /MACHINE:X64 /DLL x64\Release\banjin.obj
+           正在创建库 D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.lib 和对象 D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.exp
          正在生成代码
-         4 of 10 functions (40.0%) were compiled, the rest were copied from previous compilation.
-           2 functions were new in current compilation
+         8 of 10 functions (80.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
            0 functions had inline decision re-evaluated but remain unchanged
          已完成代码的生成
-         liuwangqi_banjin.vcxproj -> C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.dll
-     1>已完成生成项目“C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”(Build 个目标)的操作。
+         liuwangqi_banjin.vcxproj -> D:\GitProjects\liuwangqi_banjin\x64\Release\liuwangqi_banjin.dll
+     1>已完成生成项目“D:\GitProjects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:00.56
+已用时间 00:00:00.54
