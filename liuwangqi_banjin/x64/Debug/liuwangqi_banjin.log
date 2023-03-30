@@ -1,12 +1,14 @@
-﻿生成启动时间为 2023/3/30 11:24:39。
-     1>项目“C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2023/3/30 11:50:27。
+     1>项目“D:\GitProjects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\VS2015\VC\bin\x86_amd64\CL.exe /c /ID:\UG12.0\UGOPEN /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D LIUWANGQI_BANJIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt banjin.cpp
          banjin.cpp
        Link:
-         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\UG12.0\UGOPEN libufun.lib libugopenint.lib libnxopencpp.lib libnxopenuicpp.lib opencv_world455d.lib opencv_world455d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.lib" /MACHINE:X64 /DLL x64\Debug\banjin.obj
-         liuwangqi_banjin.vcxproj -> C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.dll
-     1>已完成生成项目“C:\Users\21687\documents\visual studio 2015\Projects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”(Build 个目标)的操作。
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\UG12.0\UGOPEN libufun.lib libugopenint.lib libnxopencpp.lib libnxopenuicpp.lib opencv_world455d.lib opencv_world455d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.lib" /MACHINE:X64 /DLL x64\Debug\banjin.obj
+         LINK : 没有找到 D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.dll 或上一个增量链接没有生成它；正在执行完全链接
+           正在创建库 D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.lib 和对象 D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.exp
+         liuwangqi_banjin.vcxproj -> D:\GitProjects\liuwangqi_banjin\x64\Debug\liuwangqi_banjin.dll
+     1>已完成生成项目“D:\GitProjects\liuwangqi_banjin\liuwangqi_banjin\liuwangqi_banjin.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 

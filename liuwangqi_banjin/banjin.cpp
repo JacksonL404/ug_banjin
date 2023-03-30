@@ -17,8 +17,8 @@ static int report(char *file, int line, char *call, int irc)
 	return(irc);
 }
 
-// 该函数对一个二维数组的每一行进行初始化
-// 输入为 数组名array，初始化的行数(第几行) row, 本行的具体数值(double型) x1, x2, x3
+// 该函数对一个二维数组的一行进行初始化
+// 输入为 被初始化的二维数组名array，需要初始化第几行 row, 本行的具体数值(double 型) x1, x2, x3
 static void myarray_init1(double array[][3],int row,double x1,double x2, double x3)
 {
 	array[row][0] = x1;
@@ -26,6 +26,8 @@ static void myarray_init1(double array[][3],int row,double x1,double x2, double 
 	array[row][2] = x3;
 }
 
+// 该函数使用一个数组对一个二维数组的一行进行初始化
+// 输入为 被初始化的二维数组名array，需要初始化第几行 row, 初始化数据储存数组array1
 void myarray_init2(double array[][3], int row, double array1[])
 {
 	array[row][0] = array1[0];
@@ -58,8 +60,6 @@ static void do_ugopen_api(void)
 
 	// 创建线段数组
 	UF_CURVE_line_t line[12];
-	//UF_CURVE_line_t line1, line2, line3, line4,  line5,  line6;
-	//UF_CURVE_line_t line7, line8, line9, line10, line11, line12;
 	
 	double ref_pt[12];
 	// 草图线段起始点
@@ -105,18 +105,6 @@ static void do_ugopen_api(void)
 
 		
 	}
-	//myline(&line1, linept, 0);
-	//myline(&line2, linept, 1);
-	//myline(&line3, linept, 2);
-	//myline(&line4, linept, 3);
-	//myline(&line5, linept, 4);
-	//myline(&line6, linept, 5);
-	//myline(&line7, linept, 6);
-	//myline(&line8, linept, 7);
-	//myline(&line9, linept, 8);
-	//myline(&line10, linept, 9);
-	//myline(&line11, linept, 10);
-	//myline(&line12, linept, 11);
 
 	tag_t objarray[12];
 	uf_list_p_t loop_list, features;
@@ -128,18 +116,6 @@ static void do_ugopen_api(void)
 	{
 		UF_CALL(UF_CURVE_create_line(&line[i], &objarray[i]));
 	}
-	//UF_CALL(UF_CURVE_create_line(&line1, &objarray[0]));
-	//UF_CALL(UF_CURVE_create_line(&line2, &objarray[1]));
-	//UF_CALL(UF_CURVE_create_line(&line3, &objarray[2]));
-	//UF_CALL(UF_CURVE_create_line(&line4, &objarray[3]));
-	//UF_CALL(UF_CURVE_create_line(&line5, &objarray[4]));
-	//UF_CALL(UF_CURVE_create_line(&line6, &objarray[5]));
-	//UF_CALL(UF_CURVE_create_line(&line7, &objarray[6]));
-	//UF_CALL(UF_CURVE_create_line(&line8, &objarray[7]));
-	//UF_CALL(UF_CURVE_create_line(&line9, &objarray[8]));
-	//UF_CALL(UF_CURVE_create_line(&line10, &objarray[9]));
-	//UF_CALL(UF_CURVE_create_line(&line11, &objarray[10]));
-	//UF_CALL(UF_CURVE_create_line(&line12, &objarray[11]));
 
 	// 创建线段链表
 	UF_CALL(UF_MODL_create_list(&loop_list));
@@ -151,16 +127,6 @@ static void do_ugopen_api(void)
 
 	// 获取拉伸实体id
 	tag_t feat_id = features->eid;
-
-	// 隐藏父级项目
-	//int n_unch_disp_stat, n_ch_disp_stat;
-	//UF_MODL_disp_info_p_t unch_parents_disp_status = NULL;
-	//UF_MODL_disp_info_p_t ch_parents_disp_status = NULL;
-	//logical selectable = "true";
-	//UF_CALL(UF_MODL_show_parent_curves(feat_id, selectable, &n_unch_disp_stat,
-	//	&unch_parents_disp_status, &n_ch_disp_stat, &ch_parents_disp_status));
-	//UF_CALL(UF_MODL_hide_parent_curves(feat_id, n_unch_disp_stat, unch_parents_disp_status,
-	//	n_ch_disp_stat, &ch_parents_disp_status));
 
 	// 删除链表，释放内存
 	UF_CALL(UF_MODL_delete_list(&loop_list));
